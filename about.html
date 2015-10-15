@@ -4,4 +4,15 @@ layout: default
 
 <main>
     <h2>About</h2>
+    
+    {% for dino in site.data.dinos %}
+    <h3>{{dino.name}}</h3>
+    <dl>
+        <dt>Diet</dt>
+        <dd>{{dino.diet}}</dd>
+        <dt>Size</dt>
+        <dd>{{dino.size}}</dd>
+        </dl>
+    {% endfor %}
+    
 </main>    

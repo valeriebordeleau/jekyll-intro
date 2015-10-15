@@ -1,0 +1,12 @@
+- name: Tyrannosaurus 
+  diet: Meat
+  size: Biggish
+  
+- name: Stegosaurus
+  diet: Plants
+  size: Medium-like
+      
+- name: Velociraptor
+  diet: Meat
+  size: Tinyish
+    
